@@ -1,0 +1,101 @@
+//---------------------------------------------------------------------------
+
+#ifndef Programaci�nH
+#define Programaci�nH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Menus.hpp>
+#include <Vcl.Grids.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TMainMenu *MainMenu1;
+	TEdit *Txt_Numero;
+	TEdit *Txt_Numero2;
+	TEdit *Txt_Resultado;
+	TLabel *Label1;
+	TLabel *Label2;
+	TMenuItem *NmerosNaturales1;
+	TMenuItem *Cadenas1;
+	TMenuItem *FactorialdeunNmero1;
+	TMenuItem *DigitodelaSerie1;
+	TMenuItem *CantidadDigitosdeunNmero1;
+	TMenuItem *SumadeDigitosPares1;
+	TMenuItem *DiferenciaentrePreseImpares1;
+	TMenuItem *PotenciadeunNmero1;
+	TMenuItem *DigitoMayordeunNmero1;
+	TMenuItem *CantidaddeDigitosPares1;
+	TMenuItem *CantidadDigitosParesantesImpar1;
+	TMenuItem *DigitoMayoralFinal1;
+	TMenuItem *ContarlosEspacios1;
+	TMenuItem *ContarlasVocales1;
+	TMenuItem *Invertir1;
+	TMenuItem *Invertir21;
+	TMenuItem *Invertir31;
+	TMenuItem *PalabramsLarga1;
+	TMenuItem *EliminarPrimeraLetra1;
+	TMenuItem *InvertircadaPalabra1;
+	TMenuItem *Vectores1;
+	TMenuItem *InvertirenunSegmento1;
+	TStringGrid *StringGrid1;
+	TButton *Button1;
+	TMenuItem *Ordenar1;
+	TEdit *Txt_Vector;
+	TLabel *Label3;
+	TMenuItem *Suma1;
+	TMenuItem *BusquedaBinaria1;
+	TMenuItem *BubleSort1;
+	TMenuItem *Matrices1;
+	TMenuItem *Cargar1;
+	TStringGrid *StringGrid2;
+	TMenuItem *Cargar21;
+	TMenuItem *CargarEspiral1;
+	TMenuItem *CuadradoMgico1;
+	TMenuItem *CuadradoMagico21;
+	TMenuItem *riangularInfdeIzqaDer1;
+	TMenuItem *riangularInfdeArribaaAbajo1;
+	TMenuItem *CargardeArribaaAbajo1;
+	TMenuItem *CargarDegradedeMayoraMenor1;
+	void __fastcall FactorialdeunNmero1Click(TObject *Sender);
+	void __fastcall DigitodelaSerie1Click(TObject *Sender);
+	void __fastcall CantidadDigitosdeunNmero1Click(TObject *Sender);
+	void __fastcall SumadeDigitosPares1Click(TObject *Sender);
+	void __fastcall DiferenciaentrePreseImpares1Click(TObject *Sender);
+	void __fastcall PotenciadeunNmero1Click(TObject *Sender);
+	void __fastcall DigitoMayordeunNmero1Click(TObject *Sender);
+	void __fastcall CantidaddeDigitosPares1Click(TObject *Sender);
+	void __fastcall CantidadDigitosParesantesImpar1Click(TObject *Sender);
+	void __fastcall DigitoMayoralFinal1Click(TObject *Sender);
+	void __fastcall ContarlosEspacios1Click(TObject *Sender);
+	void __fastcall ContarlasVocales1Click(TObject *Sender);
+	void __fastcall Invertir1Click(TObject *Sender);
+	void __fastcall Invertir21Click(TObject *Sender);
+	void __fastcall Invertir31Click(TObject *Sender);
+	void __fastcall PalabramsLarga1Click(TObject *Sender);
+	void __fastcall EliminarPrimeraLetra1Click(TObject *Sender);
+	void __fastcall InvertircadaPalabra1Click(TObject *Sender);
+	void __fastcall InvertirenunSegmento1Click(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Ordenar1Click(TObject *Sender);
+	void __fastcall Txt_VectorExit(TObject *Sender);
+	void __fastcall Suma1Click(TObject *Sender);
+	void __fastcall BusquedaBinaria1Click(TObject *Sender);
+	void __fastcall BubleSort1Click(TObject *Sender);
+	void __fastcall Cargar1Click(TObject *Sender);
+	void __fastcall Cargar21Click(TObject *Sender);
+	void __fastcall CargarEspiral1Click(TObject *Sender);
+	void __fastcall CuadradoMgico1Click(TObject *Sender);
+	void __fastcall CuadradoMagico21Click(TObject *Sender);
+	void __fastcall CargarDegradedeMayoraMenor1Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif

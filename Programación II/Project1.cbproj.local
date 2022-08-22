@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/27 09:13:04.000.792,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.cpp</Transaction>
+    <Transaction>2021/05/27 09:13:04.000.536,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/27 10:15:25.000.113,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.dfm=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II\Programación.dfm</Transaction>
+    <Transaction>2021/05/27 10:15:25.000.113,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II\Programación.cpp</Transaction>
+    <Transaction>2021/05/27 10:15:25.000.113,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II\Programación.h</Transaction>
+    <Transaction>2021/05/27 10:16:19.000.723,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1PCH1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II\Project1PCH1.h</Transaction>
+    <Transaction>2021/05/27 10:16:24.000.015,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1.cbproj=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

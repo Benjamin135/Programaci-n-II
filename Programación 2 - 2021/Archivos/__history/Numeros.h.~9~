@@ -1,0 +1,27 @@
+// ---------------------------------------------------------------------------
+
+#ifndef NumerosH
+#define NumerosH
+// ---------------------------------------------------------------------------
+#include <vcl.h>
+
+byte SumaDigitos(Cardinal x);
+
+byte Mayor(Cardinal x);
+
+void EliminarZ(Cardinal &x, byte z);
+
+AnsiString RepetirDigito(Cardinal x, Cardinal v);
+AnsiString Literal(Cardinal x);
+
+Cardinal Rotar(Cardinal x);
+void Rotar_2(Cardinal &x);
+
+Cardinal suma_bin(Cardinal a, Cardinal b);
+
+bool OrdenadoAsc(Cardinal x);
+bool OrdenadoDesc(Cardinal x);
+
+void Separar(Cardinal n, Cardinal &x, Cardinal &y);
+
+#endif

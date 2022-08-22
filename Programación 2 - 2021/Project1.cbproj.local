@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/09/30 15:21:48.000.424,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/30 15:21:50.000.689,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.cpp</Transaction>
+    <Transaction>2021/09/30 15:49:42.000.904,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit2.cpp</Transaction>
+    <Transaction>2021/09/30 15:50:48.000.477,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit1.cpp</Transaction>
+    <Transaction>2021/09/30 15:50:48.000.477,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.dfm=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit1.dfm</Transaction>
+    <Transaction>2021/09/30 15:50:48.000.477,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit1.h</Transaction>
+    <Transaction>2021/09/30 15:50:52.000.360,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1PCH1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/30 15:50:56.000.302,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1.cbproj=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Project1.cbproj</Transaction>
+    <Transaction>2021/09/30 16:01:15.000.437,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp</Transaction>
+    <Transaction>2021/09/30 16:01:26.000.926,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Numeros.cpp</Transaction>
+    <Transaction>2021/09/30 16:01:26.000.926,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Numeros.h</Transaction>
+    <Transaction>2021/09/30 16:02:01.000.347,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Numeros.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Numeros.cpp</Transaction>
+    <Transaction>2021/09/30 16:02:01.000.347,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Numeros.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Numeros.h</Transaction>
+    <Transaction>2021/09/30 16:02:29.000.763,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp</Transaction>
+    <Transaction>2021/09/30 16:03:54.000.422,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp</Transaction>
+    <Transaction>2021/09/30 16:04:57.000.735,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Series.cpp</Transaction>
+    <Transaction>2021/09/30 16:04:57.000.735,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Series.h</Transaction>
+    <Transaction>2021/09/30 16:05:09.000.326,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Series.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Series.h</Transaction>
+    <Transaction>2021/09/30 16:05:09.000.326,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Series.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Series.cpp</Transaction>
+    <Transaction>2021/09/30 16:05:35.000.777,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp</Transaction>
+    <Transaction>2021/09/30 16:05:45.000.024,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Cadenas.cpp</Transaction>
+    <Transaction>2021/09/30 16:05:45.000.024,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Cadenas.h</Transaction>
+    <Transaction>2021/09/30 16:05:55.000.773,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Cadenas.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Cadenas.h</Transaction>
+    <Transaction>2021/09/30 16:05:55.000.773,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Cadenas.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Cadenas.cpp</Transaction>
+    <Transaction>2021/09/30 16:06:01.000.932,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp</Transaction>
+    <Transaction>2021/09/30 16:06:09.000.364,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Vectores.cpp</Transaction>
+    <Transaction>2021/09/30 16:06:09.000.364,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Vectores.h</Transaction>
+    <Transaction>2021/09/30 16:06:28.000.937,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Vectores.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Vectores.h</Transaction>
+    <Transaction>2021/09/30 16:06:28.000.937,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Vectores.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Vectores.cpp</Transaction>
+    <Transaction>2021/09/30 16:06:37.000.262,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp</Transaction>
+    <Transaction>2021/09/30 16:06:45.000.214,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Matrices.h</Transaction>
+    <Transaction>2021/09/30 16:06:45.000.214,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit2.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Matrices.cpp</Transaction>
+    <Transaction>2021/09/30 16:06:53.000.443,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Matrices.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Matrices.h</Transaction>
+    <Transaction>2021/09/30 16:06:53.000.443,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Matrices.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Archivos\Matrices.cpp</Transaction>
+    <Transaction>2021/09/30 16:08:13.000.325,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Recursion.h</Transaction>
+    <Transaction>2021/09/30 16:08:13.000.325,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit1.dfm=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Recursion.dfm</Transaction>
+    <Transaction>2021/09/30 16:08:13.000.325,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación 2 - 2021\Recursion.cpp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Archivos"/>
+    <File Path="Archivos\Numeros.cpp"/>
+    <File Path="Archivos\Numeros.cpp"/>
+    <File Path="Archivos\Numeros.h"/>
+    <File Path="Archivos\Series.cpp"/>
+    <File Path="Archivos\Series.cpp"/>
+    <File Path="Archivos\Series.h"/>
+    <File Path="Archivos\Cadenas.cpp"/>
+    <File Path="Archivos\Cadenas.cpp"/>
+    <File Path="Archivos\Cadenas.h"/>
+    <File Path="Archivos\Vectores.cpp"/>
+    <File Path="Archivos\Vectores.cpp"/>
+    <File Path="Archivos\Vectores.h"/>
+    <File Path="Archivos\Matrices.cpp"/>
+    <File Path="Archivos\Matrices.cpp"/>
+    <File Path="Archivos\Matrices.h"/>
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="Recursion.cpp"/>
+    <File Path="Recursion.cpp"/>
+    <File Path="Recursion.dfm"/>
+    <File Path="Recursion.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

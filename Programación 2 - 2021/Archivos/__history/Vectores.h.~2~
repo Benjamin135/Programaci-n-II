@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------
+
+#ifndef VectoresH
+#define VectoresH
+//---------------------------------------------------------------------------
+#include <vcl.h>
+#include <Vcl.Grids.hpp>
+
+Cardinal Suma(TStringGrid *v, Word n);
+
+Cardinal SumaPares(TStringGrid *v, Word n);
+Cardinal SumaImpares(TStringGrid *v, Word n);
+
+bool ExisteElemento(TStringGrid *v, Word a, Word b, Word elemento);
+
+AnsiString Vocales(AnsiString cadena);
+void CargarVocales(TStringGrid *v, AnsiString cadena);
+
+#endif

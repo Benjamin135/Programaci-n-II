@@ -1,0 +1,187 @@
+//---------------------------------------------------------------------------
+
+#ifndef RecursionH
+#define RecursionH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.Menus.hpp>
+#include "Numeros.h"
+#include "Cadenas.h"
+#include "Vectores.h"
+#include "Matrices.h"
+#include "Series.h"
+#include <Vcl.Grids.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TMainMenu *MainMenu1;
+	TMenuItem *Series1;
+	TMenuItem *Series2;
+	TMenuItem *Vectores1;
+	TMenuItem *Vectores2;
+	TPageControl *PageControl1;
+	TTabSheet *TabSheet1;
+	TTabSheet *TabSheet2;
+	TTabSheet *Cadenas;
+	TTabSheet *Vectores;
+	TTabSheet *Matrices;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TEdit *Edit3;
+	TLabel *Label1;
+	TLabel *Label2;
+	TLabel *Label3;
+	TMenuItem *Nmeros1;
+	TMenuItem *SumadeDigitos1;
+	TMenuItem *DigitoMayor1;
+	TMenuItem *EliminarDigitoxdig1;
+	TMenuItem *Literal1;
+	TMenuItem *RotarPrimerDigitoalaDerecha1;
+	TMenuItem *VerificarOrdenAscendente1;
+	TMenuItem *VerificarOrdenDescendente1;
+	TMenuItem *SepararenDigitosPareseImpares1;
+	TMenuItem *EliminarDigitosPares1;
+	TMenuItem *EliminarDigitosPrimos1;
+	TMenuItem *Invertir1;
+	TMenuItem *MoverMayoralFinal1;
+	TMenuItem *CantidadParesantesdeImpar1;
+	TMenuItem *CantidaddeDigitos1;
+	TMenuItem *CantidadDigitosPares1;
+	TMenuItem *CantidadDigitosImpares1;
+	TMenuItem *OrdenarAscendentemente1;
+	TMenuItem *OrdenarAscendentemente2;
+	TMenuItem *DigitoMenoryMayor1;
+	TMenuItem *SumaDigitosPares1;
+	TMenuItem *CantidadDigitosPrimos1;
+	TMenuItem *SumaDigitosPrimos1;
+	TMenuItem *DiferenciaentreDigitosPareseImpares1;
+	TMenuItem *InsertarDigitoxpdig1;
+	TMenuItem *CambiarunDigitoporOtro1;
+	TEdit *Edit4;
+	TLabel *Label4;
+	TMenuItem *PosicindeunDigito1;
+	TEdit *Edit5;
+	TEdit *Edit6;
+	TLabel *Label5;
+	TLabel *Label6;
+	TMenuItem *CantidaddeVocales1;
+	TMenuItem *Invertir2;
+	TMenuItem *InvertirPalabras1;
+	TMenuItem *PalabraMsLarga1;
+	TMenuItem *EliminarPrimeraLetra1;
+	TMenuItem *EsPalindrome1;
+	TMenuItem *InvertirOrden1;
+	TEdit *Edit7;
+	TLabel *Label7;
+	TMenuItem *ExistePalabra1;
+	TMenuItem *EliminarPrimeryUltimaLetra1;
+	TMenuItem *NmeroMayor1;
+	TMenuItem *CantidaddePalabras1;
+	TMenuItem *CantidaddeLetras1;
+	TMenuItem *CantidaddeEspacios1;
+	TMenuItem *CantidaddeEspacios2;
+	TMenuItem *SumadeDigitos2;
+	TMenuItem *CadenaPareseImpares1;
+	TMenuItem *NmeroMenor1;
+	TStringGrid *Vector1;
+	TStringGrid *Vector2;
+	TEdit *Edit8;
+	TEdit *Txt_Dimension;
+	TEdit *Txt_Dimension2;
+	TEdit *Edit11;
+	TButton *Btn_Dimensionar;
+	TButton *Btn_Dimensionar2;
+	TButton *Btn_Random;
+	TMenuItem *Suma1;
+	TEdit *Edit9;
+	TLabel *Label8;
+	TLabel *Label9;
+	TLabel *Label10;
+	TMenuItem *SumaPares1;
+	TMenuItem *ExisteElemento1;
+	TEdit *Edit10;
+	TLabel *Label11;
+	TMenuItem *CargarvocalesdeunaCadena1;
+	TButton *Btn_Limpiar;
+	TButton *Btn_Limpiar2;
+	TMenuItem *CadenaconlasUltimasLetras1;
+	TMenuItem *CargarconPrimeraletraenMayuscula1;
+	TMenuItem *CargarPalabras1;
+	TMenuItem *CadenaconlasPrimerasLetras1;
+	TMenuItem *CargarVocales1;
+	TMenuItem *CargarCadenaInvertida1;
+	TMenuItem *CargarPalabrassinVocales1;
+	void __fastcall SumadeDigitos1Click(TObject *Sender);
+	void __fastcall DigitoMayor1Click(TObject *Sender);
+	void __fastcall EliminarDigitoxdig1Click(TObject *Sender);
+	void __fastcall Literal1Click(TObject *Sender);
+	void __fastcall RotarPrimerDigitoalaDerecha1Click(TObject *Sender);
+	void __fastcall VerificarOrdenAscendente1Click(TObject *Sender);
+	void __fastcall VerificarOrdenDescendente1Click(TObject *Sender);
+	void __fastcall SepararenDigitosPareseImpares1Click(TObject *Sender);
+	void __fastcall EliminarDigitosPares1Click(TObject *Sender);
+	void __fastcall EliminarDigitosPrimos1Click(TObject *Sender);
+	void __fastcall Invertir1Click(TObject *Sender);
+	void __fastcall MoverMayoralFinal1Click(TObject *Sender);
+	void __fastcall CantidadParesantesdeImpar1Click(TObject *Sender);
+	void __fastcall CantidaddeDigitos1Click(TObject *Sender);
+	void __fastcall CantidadDigitosPares1Click(TObject *Sender);
+	void __fastcall CantidadDigitosImpares1Click(TObject *Sender);
+	void __fastcall OrdenarAscendentemente1Click(TObject *Sender);
+	void __fastcall OrdenarAscendentemente2Click(TObject *Sender);
+	void __fastcall DigitoMenoryMayor1Click(TObject *Sender);
+	void __fastcall SumaDigitosPares1Click(TObject *Sender);
+	void __fastcall CantidadDigitosPrimos1Click(TObject *Sender);
+	void __fastcall SumaDigitosPrimos1Click(TObject *Sender);
+	void __fastcall DiferenciaentreDigitosPareseImpares1Click(TObject *Sender);
+	void __fastcall InsertarDigitoxpdig1Click(TObject *Sender);
+	void __fastcall CambiarunDigitoporOtro1Click(TObject *Sender);
+	void __fastcall PosicindeunDigito1Click(TObject *Sender);
+	void __fastcall CantidaddeVocales1Click(TObject *Sender);
+	void __fastcall Invertir2Click(TObject *Sender);
+	void __fastcall InvertirPalabras1Click(TObject *Sender);
+	void __fastcall PalabraMsLarga1Click(TObject *Sender);
+	void __fastcall EliminarPrimeraLetra1Click(TObject *Sender);
+	void __fastcall EsPalindrome1Click(TObject *Sender);
+	void __fastcall InvertirOrden1Click(TObject *Sender);
+	void __fastcall ExistePalabra1Click(TObject *Sender);
+	void __fastcall EliminarPrimeryUltimaLetra1Click(TObject *Sender);
+	void __fastcall NmeroMayor1Click(TObject *Sender);
+	void __fastcall CantidaddePalabras1Click(TObject *Sender);
+	void __fastcall CantidaddeLetras1Click(TObject *Sender);
+	void __fastcall CantidaddeEspacios2Click(TObject *Sender);
+	void __fastcall CantidaddeEspacios1Click(TObject *Sender);
+	void __fastcall SumadeDigitos2Click(TObject *Sender);
+	void __fastcall CadenaPareseImpares1Click(TObject *Sender);
+	void __fastcall NmeroMenor1Click(TObject *Sender);
+	void __fastcall Btn_DimensionarClick(TObject *Sender);
+	void __fastcall Btn_Dimensionar2Click(TObject *Sender);
+	void __fastcall Btn_RandomClick(TObject *Sender);
+	void __fastcall Suma1Click(TObject *Sender);
+	void __fastcall SumaPares1Click(TObject *Sender);
+	void __fastcall ExisteElemento1Click(TObject *Sender);
+	void __fastcall CargarvocalesdeunaCadena1Click(TObject *Sender);
+	void __fastcall Btn_LimpiarClick(TObject *Sender);
+	void __fastcall Btn_Limpiar2Click(TObject *Sender);
+	void __fastcall CadenaconlasUltimasLetras1Click(TObject *Sender);
+	void __fastcall CargarconPrimeraletraenMayuscula1Click(TObject *Sender);
+	void __fastcall CargarPalabras1Click(TObject *Sender);
+	void __fastcall CadenaconlasPrimerasLetras1Click(TObject *Sender);
+	void __fastcall CargarVocales1Click(TObject *Sender);
+	void __fastcall CargarCadenaInvertida1Click(TObject *Sender);
+	void __fastcall CargarPalabrassinVocales1Click(TObject *Sender);
+
+
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,131 @@
+// ---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "Numeros.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+// Algoritmo que duvuelve la suma de los digitos de un número
+// Ejemplo:  SumaDigitos(x = 12345) ==> 15
+
+byte SumaDigitos(Cardinal x) {
+	byte suma;
+	if (x < 10) {
+		suma = x;
+	}
+	else {
+		suma = SumaDigitos(x / 10);
+		suma = suma + x % 10;
+	}
+	return suma;
+}
+// ---------------------------------------------------------------------------
+// Algoritmo que devuelve el mayor de los dígitos de un número
+// Ejemplo:  Mayor(x = 1825) ==> 8
+
+byte Mayor(Cardinal x){
+	byte mayor;
+	if (x < 10) {
+		mayor = x;
+	}
+	else {
+		mayor = Mayor(x / 10);
+		if (x % 10 > mayor) {
+			mayor = x % 10;
+		}
+	}
+	return mayor;
+}
+// ---------------------------------------------------------------------------
+// Algoritmo para eliminar el dígito Z de un número
+// Ejemplo:  EliminarZ(x = 42872981, z = 2) ==> x = 487981;
+
+void EliminarZ(Cardinal &x, byte z) {
+	if (x < 10) {
+		if (x == z) {
+			x = 0;
+		}
+	} else {
+		byte dig = x % 10;
+		x = x / 10;
+		EliminarZ(x, z);
+		if (dig != z) {
+			x = x * 10 + dig;
+		}
+	}
+}
+// ---------------------------------------------------------------------------
+// Algoritmo que devuelve una cadena a partir de un numero:
+// Ejemplo:  Literal(x = 132) ==> "133322"
+
+AnsiString RepetirDigito(Cardinal x, Cardinal v){
+	AnsiString resultado;
+	if (x == 0) {
+		resultado = "";
+	} else {
+		resultado = RepetirDigito(x - 1, v) + String(v);
+	}
+	return resultado;
+}
+
+AnsiString Literal(Cardinal x) {
+	AnsiString resultado;
+	if (x < 10) {
+		resultado = RepetirDigito(x, x);
+	} else {
+		byte digito = x % 10;
+		resultado = Literal(x / 10);
+		resultado = resultado + RepetirDigito(digito, digito);
+	}
+	return resultado;
+}
+// ---------------------------------------------------------------------------
+// Algoritmo para rotar de un número un digito a la izquierda
+// Ejemplo:  Rotar(x = 12345) ==> 23451
+
+Cardinal Rotar(Cardinal x) {
+	Cardinal resultado;
+	if (x < 10) {
+		resultado = x;
+	} else if (x < 100) {
+		byte dig_1 = x / 10;
+		byte dig_2 = x % 10;
+		resultado = dig_2 * 10 + dig_1;
+	} else {
+		resultado = Rotar(x / 10);
+		byte dig_3 = x % 10;
+		resultado = (resultado / 10 * 10 + dig_3) * 10 + resultado % 10;
+	}
+	return resultado;
+}
+
+void Rotar_2(Cardinal &x) {
+	if (x < 10) {
+		x = x;
+	} else if (x < 100) {
+		byte dig_1 = x / 10;
+		byte dig_2 = x % 10;
+		x = dig_2 * 10 + dig_1;
+	} else {
+		byte dig_3 = x % 10;
+		x = x / 10;
+		Rotar_2(x);
+		x = (x / 10 * 10 + dig_3) * 10 + x % 10;
+	}
+}
+// ---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------

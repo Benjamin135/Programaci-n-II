@@ -1,0 +1,35 @@
+//---------------------------------------------------------------------------
+
+#ifndef MatricesH
+#define MatricesH
+//---------------------------------------------------------------------------
+#include <vcl.h>
+#include <Vcl.Grids.hpp>
+
+void LlenarFila(TStringGrid *A, byte m, byte n, byte num);
+void CargarFilas(TStringGrid *A, byte m, byte n);
+
+void Llenar_HDI(TStringGrid *v, byte row, byte col, byte &serie);
+void Matriz_DIAB(TStringGrid *M, byte row, byte col, byte &serie);
+
+void Llenar_HID(TStringGrid *v, byte row, byte col, byte &serie);
+void Matriz_IDAB(TStringGrid *M, byte row, byte col, byte &serie);
+
+void Llenar_VAB(TStringGrid *v, byte row, byte col, byte &serie);
+void Matriz_ABID(TStringGrid *M, byte row, byte col, byte &serie);
+
+void Llenar_VBA(TStringGrid *v, byte row, byte col, byte &serie);
+void Matriz_BADI(TStringGrid *M, byte row, byte col, byte &serie);
+
+void Matriz_Serpiente_IDDI_AB(TStringGrid *M, byte row, byte col, byte &serie);
+
+void Matriz_Serpiente_DIID_BA(TStringGrid *M, byte row, byte col, byte &serie);
+
+void Triangular_SI_IDAB(TStringGrid *M, byte row, byte col, byte &serie);
+
+void Llenar_HDI_Diagonal(TStringGrid *v, byte row, byte col, byte &serie);
+void Triangular_SD_DIAB(TStringGrid *M, byte row, byte col, byte &serie);
+
+
+
+#endif
