@@ -1,0 +1,99 @@
+// ---------------------------------------------------------------------------
+
+#ifndef VectoresH
+#define VectoresH
+// ---------------------------------------------------------------------------
+#include <vcl.h>
+#include <Vcl.Grids.hpp>
+
+void Invertir_Vector(TStringGrid *v, Word a, Word b);
+void invertir(TStringGrid *v, byte a, byte b);
+
+void auxInsertionSort(TStringGrid* v, int j);
+void InsertionSort(TStringGrid* v, int i);
+
+void intercambiar(TStringGrid *A, int a, int b);
+int pivotear(TStringGrid *A, int a, int b, bool sentido);
+void quickSort(TStringGrid *A, int a, int b);
+
+// Serie: 2, 4, 16, 22, 176, 186, ...
+// Cardinal auxSerie1(TStringGrid* v, Cardinal n);
+Cardinal auxSerie1(Cardinal n);
+void cargarSerie1(TStringGrid* v, int n);
+
+bool Verificar_Orden(TStringGrid* v, int n);
+
+Cardinal auxSumaDigitos(String cad);
+Cardinal sumaDigitos(TStringGrid* v, Byte n);
+
+Cardinal posMayor(String cad);
+void cargarOrdAsc(TStringGrid* v, String cad);
+
+void burbujear(TStringGrid* v, Byte n);
+void ord_burbuja(TStringGrid* v, Byte n);
+
+void Burbujear(TStringGrid *v, Word n);
+void BubbleSort(TStringGrid *v, Word n);
+
+void swap(TStringGrid *SG, int a, int b);
+void burbujear1(TStringGrid *SG, int n);
+void bubbleSort(TStringGrid *SG, int n);
+
+void recorrer(TStringGrid* v, Byte p, Byte n);
+void insertar_aux(TStringGrid* v2, TStringGrid* v1, Byte p, Byte i);
+void insertar(TStringGrid* v2, TStringGrid* v1, Byte p);
+
+void cargar_frase(String cad, TStringGrid* v);
+void cargarVectorCadena(TStringGrid *v, byte n, String x);
+
+void eliminar(TStringGrid* v, Cardinal p);
+void eliminar_elemento(TStringGrid* v, Cardinal z, Cardinal n);
+
+String vocales(String cad);
+void cargar_vocales(String cad, TStringGrid* v);
+
+Cardinal frec(String cad, char c);
+void cargar_frec(String cad, TStringGrid* vc, TStringGrid* vf, Cardinal n);
+
+Cardinal sumaPares(TStringGrid *v, byte n);
+
+void cargarVector100(TStringGrid *v, byte n, Cardinal x);
+
+void Invertir(String &x);
+String generarCadenaNroInv(TStringGrid *v, byte n);
+String GenerarCadenaNroInv(TStringGrid *v, byte a, byte b);
+
+Cardinal CargarSerie(TStringGrid *v, byte n);
+
+void cargarSerie(TStringGrid *A, int n);
+
+Cardinal suma(TStringGrid *v, byte n);
+Word Sumar_Vectores(TStringGrid *v, Word n);
+
+void Cargar_Cadena(TStringGrid *v, byte n, String cad);
+void cargarConCadena(String cadena, TStringGrid *SG);
+
+bool Busqueda_Binaria(TStringGrid *v, int x, Word a, Word b);
+
+void Insertar(TStringGrid *v, byte &n, byte x);
+void CargarOrden(Cardinal x, TStringGrid *v, byte &n);
+
+bool esVocal(wchar_t z);
+void eliminarVocales(String &x);
+void cargar_palabras_sin_vocales(TStringGrid *v, String cad);
+
+Cardinal cargar_numero_retornar_suma(TStringGrid *v, String cad);
+
+String construir_con_ultima_letra(TStringGrid *v, int dim);
+
+bool EsLetra(char z);
+void cargar_inverso_con_letras(TStringGrid *v, String cad);
+
+long generar_num(TStringGrid *v, byte n);
+
+void eliminar2(TStringGrid* v, byte m, Cardinal p);
+void eliminar_elemento2(TStringGrid* v, Cardinal z, Cardinal n);
+
+Cardinal Suma_Pares(TStringGrid* v, Cardinal n);
+
+#endif

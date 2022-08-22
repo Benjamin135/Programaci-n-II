@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/14 14:25:00.000.258,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1PCH1.h</Transaction>
+    <Transaction>2021/06/14 14:25:01.000.117,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.cpp</Transaction>
+    <Transaction>2021/06/14 14:46:38.000.228,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.dfm=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Recursión.dfm</Transaction>
+    <Transaction>2021/06/14 14:46:38.000.228,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Recursión.cpp</Transaction>
+    <Transaction>2021/06/14 14:46:38.000.228,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Recursión.h</Transaction>
+    <Transaction>2021/06/14 14:46:42.000.056,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1PCH1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Project1PCH1.h</Transaction>
+    <Transaction>2021/06/14 14:46:44.000.708,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Project1.cbproj=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Project1.cbproj</Transaction>
+    <Transaction>2021/06/14 14:50:54.000.081,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp</Transaction>
+    <Transaction>2021/06/14 14:51:10.000.892,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Números.h</Transaction>
+    <Transaction>2021/06/14 14:51:10.000.892,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Números.cpp</Transaction>
+    <Transaction>2021/06/14 14:51:49.000.344,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Números.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Números.cpp</Transaction>
+    <Transaction>2021/06/14 14:51:49.000.344,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Números.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Números.h</Transaction>
+    <Transaction>2021/06/14 14:55:14.000.662,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp</Transaction>
+    <Transaction>2021/06/14 14:55:21.000.655,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Cadenas.h</Transaction>
+    <Transaction>2021/06/14 14:55:21.000.655,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Cadenas.cpp</Transaction>
+    <Transaction>2021/06/14 14:55:30.000.351,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Cadenas.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Cadenas.h</Transaction>
+    <Transaction>2021/06/14 14:55:30.000.351,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Cadenas.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Cadenas.cpp</Transaction>
+    <Transaction>2021/06/14 14:55:40.000.326,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp</Transaction>
+    <Transaction>2021/06/14 14:55:48.000.519,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Vectores.h</Transaction>
+    <Transaction>2021/06/14 14:55:48.000.519,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Vectores.cpp</Transaction>
+    <Transaction>2021/06/14 14:55:57.000.498,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Vectores.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Vectores.h</Transaction>
+    <Transaction>2021/06/14 14:55:57.000.498,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Vectores.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Vectores.cpp</Transaction>
+    <Transaction>2021/06/14 14:56:02.000.711,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp</Transaction>
+    <Transaction>2021/06/14 14:56:09.000.337,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Matrices.h</Transaction>
+    <Transaction>2021/06/14 14:56:09.000.337,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Matrices.cpp</Transaction>
+    <Transaction>2021/06/14 14:56:17.000.293,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Matrices.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Matrices.h</Transaction>
+    <Transaction>2021/06/14 14:56:17.000.293,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Matrices.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Matrices.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

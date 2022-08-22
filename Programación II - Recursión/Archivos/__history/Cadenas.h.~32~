@@ -1,0 +1,54 @@
+// ---------------------------------------------------------------------------
+
+#ifndef CadenasH
+#define CadenasH
+// ---------------------------------------------------------------------------
+#include <vcl.h>
+#include <Vcl.Grids.hpp>
+
+void Eliminar_Primera_Letra(AnsiString &Cadena);
+void eliminarPrimerLetra(String &x);
+
+void EliminarPrimeraLetra(AnsiString &cadena);
+
+bool perteneceConjunto(String conjunto, char c);
+String leerConjunto(String conjunto);
+
+bool esPalindrome(String cad);
+
+Cardinal auxSumatoria(String cad);
+Cardinal sumatoriaNumeros(String cad);
+
+Cardinal mayor(String cad);
+Cardinal numMayor(String cad);
+
+bool EsDigito(char z);
+String PrimerNumero(String x);
+Cardinal NumeroMayor(String x);
+
+void Invertir(String &x);
+
+AnsiString Invertir_Cadena(AnsiString x);
+AnsiString Invertir_Cadena2(AnsiString x);
+AnsiString Invertir_Cadena3(AnsiString x);
+String invertirN2(String cadena);
+
+void invertirPalabras(String &x);
+
+AnsiString InvertirPalabra(AnsiString palabra);
+  void Invertir_Cada_Palabra(AnsiString &cadena);
+
+bool esVocal(wchar_t z);
+void eliminarVocales(String &x);
+
+String palabraMasLarga(String x);
+AnsiString Palabra_Larga(AnsiString cadena);
+
+byte contarPalabras(String x);
+
+byte Cantidad_Espacios(AnsiString x);
+
+bool Es_Vocal(char z);
+byte Contar_Vocales(AnsiString x);
+
+#endif

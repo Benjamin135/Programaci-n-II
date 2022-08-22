@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/17 11:21:28.000.204,=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp</Transaction>
+    <Transaction>2021/06/17 11:21:37.000.574,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Series.h</Transaction>
+    <Transaction>2021/06/17 11:21:37.000.574,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Unit1.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Series.cpp</Transaction>
+    <Transaction>2021/06/17 11:24:19.000.448,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Series.cpp=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Series.cpp</Transaction>
+    <Transaction>2021/06/17 11:24:19.000.448,C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Series.h=C:\Users\USER\Desktop\PROYECTOS C++ BUILDER\Programación II - Recursión\Archivos\Series.h</Transaction>
+  </Transactions>
+</BorlandProject>
